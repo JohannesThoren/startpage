@@ -1,0 +1,15 @@
+.clock {
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+
+    width: 5vw;
+
+    flex-wrap: wrap;
+
+    grid-area: c;
+}

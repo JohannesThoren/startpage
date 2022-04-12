@@ -1,0 +1,39 @@
+.weather {
+    text-align: center;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 1vh;
+    grid-area: w;
+}
+
+
+
+.weather .grid {
+    height: fit-content;
+    width: min(20vw, 15rem);
+    display: grid;
+    grid-template-areas: "i t"
+        "d d";
+    text-align: center;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    grid-area: i;
+}
+
+.temp {
+    grid-area: t;
+}
+
+.desc {
+    grid-area: d;
+}
+.name:hover {
+    cursor: pointer;
+} 
